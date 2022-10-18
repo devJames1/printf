@@ -19,7 +19,7 @@ int print_hex(unsigned int n, unsigned int c)
 		diff = 'A' - ':';
 	else
 		diff = 'a' - ':';
-		a[0] = n / m;
+	a[0] = n / m;
 	for (i = 1; i < 8; i++)
 	{
 		m /= 16;
